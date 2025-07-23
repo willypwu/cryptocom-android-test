@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/walletFragment"
+        android:icon="@drawable/ic_wallet_24"
+        android:title="@string/bottom_nav_wallet" />
+
+    <item
+        android:id="@+id/defiFragment"
+        android:icon="@drawable/ic_change_history_24"
+        android:title="@string/bottom_nav_defi" />
+</menu>

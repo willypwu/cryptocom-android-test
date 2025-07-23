@@ -1,0 +1,28 @@
+# Android Studio & IntelliJ
+.idea/
+*.iml
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# NDK / CMake
+.cxx/
+.externalNativeBuild/
+
+# Android generated files
+/local.properties
+captures/
+output.json
+
+# Temporary files
+*.log
+*.tmp
+*.orig
+*.bak
+
+# OS
+Thumbs.db
+ehthumbs.db

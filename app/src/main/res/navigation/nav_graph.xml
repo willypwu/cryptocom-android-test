@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/walletFragment">
+
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.test.cryptocom.presentation.ui.wallet.WalletFragment"
+        android:label="Wallet" />
+
+    <fragment
+        android:id="@+id/defiFragment"
+        android:name="com.test.cryptocom.presentation.ui.defi.DeFiFragment"
+        android:label="DeFi" />
+</navigation>
