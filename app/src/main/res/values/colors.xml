@@ -4,5 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue_light">#3E86FF</color>
 
+    <color name="app_default_bg">#0E1E35</color>
+    <color name="rv_top_round_bg">#F8F9FB</color>
+    <color name="card_item_bg">#F8F9FB</color>
     <color name="nav_bar_bg">#F0F0F0</color>
+
+    <color name="wallet_item_text_amount">#555555</color>
+    <color name="wallet_item_text_usd">#999999</color>
 </resources>
