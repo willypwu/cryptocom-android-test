@@ -30,19 +30,4 @@ object JsonLoader {
 
         return json.decodeFromString(jsonString)
     }
-
-    fun loadCurrencies(context: Context): List<Currency> {
-        val res = loadJsonFromAssets<CurrencyResponse>(context, Constants.CURRENCIES_FILE)
-        return res.currencies
-    }
-
-    fun loadExchangeRates(context: Context): List<ExchangeRateTier> {
-        val res = loadJsonFromAssets<ExchangeRateResponse>(context, Constants.EXCHANGE_RATES_FILE)
-        return res.tiers
-    }
-
-    fun loadWalletBalances(context: Context): List<WalletBalance> {
-        val res = loadJsonFromAssets<WalletBalanceResponse>(context, Constants.WALLET_BALANCE_FILE)
-        return res.wallet
-    }
 }

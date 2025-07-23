@@ -4,4 +4,7 @@ object Constants {
     const val CURRENCIES_FILE = "currencies.json"
     const val EXCHANGE_RATES_FILE = "live-rates.json"
     const val WALLET_BALANCE_FILE = "wallet-balance.json"
+
+    const val USD = "USD"
+    val SUPPORTED_SYMBOLS = listOf("BTC", "ETH", "CRO")
 }
